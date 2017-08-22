@@ -3,13 +3,14 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo img {
@@ -34,4 +35,89 @@ nav span {
 
 a {
   color: black;
+}
+
+article {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column.large {
+  width: 630px;
+  justify-content: space-between;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+
+.main-story,
+.stories,
+.story,
+.image,
+.news.bites {
+  border: 1px solid black;
+}
+
+.main-story .image {
+  background-image: url(../resources/images/party.png);
+  width: 630px;
+  font-size: 40px;
+  text-align: left;
+
+}
+.fall.image {
+  background-image: url(../resources/images/fall.png);
+}
+.hipster.image {
+  background-image: url(../resources/images/hipster.png);
+}
+.cat.image {
+  background-image: url(../resources/images/cat.png);
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.image span {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+
+}
+
+.image {
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+h2 {
+  font-size: 24px
 }
