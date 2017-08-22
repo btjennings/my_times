@@ -14,3 +14,34 @@ header {
   font-weight: bold;
   display: flex;
 }
+
+article {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding: 116px;
+}
+
+.column {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.one {
+  width: 630px;
+}
+
+.story {
+  border: 1px solid black;
+  display: block;
+}
+
+.column.two {
+  width: 300px;
+}
+
+.column.three {
+  width: 240px;
+}
