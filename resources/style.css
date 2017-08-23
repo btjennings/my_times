@@ -47,6 +47,7 @@ article {
 .column.large {
   width: 630px;
   justify-content: space-between;
+
 }
 
 .column.medium {
@@ -61,16 +62,7 @@ article {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  border: 1px solid black;
-}
-
-.main-story,
-.stories,
-.story,
-.image,
-.news.bites {
-  border: 1px solid black;
-}
+  }
 
 .main-story .image {
   background-image: url(../resources/images/party.png);
@@ -103,6 +95,7 @@ article {
    font-weight: bold;
    font-size: 30px;
    color: white;
+   margin: 50px auto;
 
 }
 
@@ -110,6 +103,10 @@ article {
   height: 300px;
   margin-top: 15px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .stories {
@@ -120,4 +117,25 @@ article {
 
 h2 {
   font-size: 24px
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration:
+}
+.bite {
+  display: block;
+  font-size: 12px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  color: DimGray;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+}
+
+.cookie {
+  margin-right: 32px;
+  height: 240px;
 }
